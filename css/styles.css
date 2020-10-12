@@ -83,3 +83,9 @@
 .gnav li li:hover a {
     background: #004789;
 }
+
+.div-content {
+    border: solid 1px black;
+    margin: 10px;
+    padding:10px;
+}
