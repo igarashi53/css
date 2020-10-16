@@ -1,3 +1,10 @@
+
+.div-content {
+    border: solid 1px black;
+    margin: 10px;
+    padding:10px;
+}
+
 .button{
     width:100px;
     height:50px;
@@ -9,7 +16,7 @@
 .button:hover{
     width:100px;
     height:50px;
-    background:blue;
+    background:goldenrod;
     /* border-radius:30px; */
     border-radius:130px;
   }
@@ -84,8 +91,16 @@
     background: #004789;
 }
 
-.div-content {
-    border: solid 1px black;
-    margin: 10px;
-    padding:10px;
+.div-outer{
+    display: flex;
+}
+
+.div-outer2 {
+    display: flex;
+    justify-content: center;
+}
+.div-inner {
+    background-color:gold;
+    margin:1px;
+    border: 1px solid blue;
 }
